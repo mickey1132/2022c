@@ -1,8 +1,8 @@
 # 2022c
 資傳一甲 程式設計 程式倉庫
 
-#week06
-##06-1
+# week06
+06-1
 ```cpp
 #include <stdio.h>
 int main()
@@ -13,7 +13,7 @@ int main()
         printf("鷹架%d樓 星星%d顆\n",a,b);
     }
 }
-##06-2
+# 06-2
 ```cpp
 #include <stdio.h>
 int main()
@@ -32,7 +32,7 @@ int main()
         printf("鷹架%d樓 星星%d顆\n",a,b);
     }
 }
-##06-3
+# 06-3
 ```cpp
 #include <stdio.h>
 int main()
@@ -47,7 +47,7 @@ int main()
     }
      printf("找到答案是:%d", ans);
 }
-##06-4
+# 06-4
 ```cpp
 #include <stdio.h>
 int main()
@@ -66,7 +66,7 @@ int main()
     }
     printf("中的是:%d",b);
 }
-##06-5
+# 06-5
 ```cpp
 #include <stdio.h>
 int main()
