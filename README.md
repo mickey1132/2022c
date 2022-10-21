@@ -1,8 +1,60 @@
 # 2022c
 資傳一甲 程式設計 程式倉庫
 
+# week07
+## 07-1
+```cpp
+#include <stdio.h>
+int main()
+{
+    int n=123456789123123;
+    printf("%d\n",n);
+    long long int a=123456789123456789;
+    printf("%lld",a);
+}
+## 07-2
+```cpp
+#include <stdio.h>
+int main()
+{
+    long long int a,b;
+    scanf("%lld %lld",&a,&b);
+    long long int ans;
+    for(long long int i=1;i<=a;i++){
+        if( a%i==0 && b%i==0 )ans=i;
+    }
+    printf("答案是%lld\n",ans);
+}
+## 07-3
+```cpp
+#include <stdio.h>
+int main()
+{
+    long long int a,b,c;
+    scanf("%lld %lld",&a,&b);
+    while(1){
+        c=a%b;
+        printf("%lld %lld %lld\n",a,b,c);
+        if(c==0)break;
+        a=b;
+        b=c;
+    }
+    printf("答案是%lld\n",b);
+}
+## 07-4
+```cpp
+#include <stdio.h>
+int main()
+{
+    int n=123456789;
+    while(n>0){
+        printf("個位數是%d\n",n%10);
+        n=n/10;
+    }
+
+}
 # week06
-06-1
+## 06-1
 ```cpp
 #include <stdio.h>
 int main()
@@ -13,7 +65,7 @@ int main()
         printf("鷹架%d樓 星星%d顆\n",a,b);
     }
 }
-# 06-2
+## 06-2
 ```cpp
 #include <stdio.h>
 int main()
@@ -32,7 +84,7 @@ int main()
         printf("鷹架%d樓 星星%d顆\n",a,b);
     }
 }
-# 06-3
+## 06-3
 ```cpp
 #include <stdio.h>
 int main()
@@ -47,7 +99,7 @@ int main()
     }
      printf("找到答案是:%d", ans);
 }
-# 06-4
+## 06-4
 ```cpp
 #include <stdio.h>
 int main()
@@ -66,7 +118,7 @@ int main()
     }
     printf("中的是:%d",b);
 }
-# 06-5
+## 06-5
 ```cpp
 #include <stdio.h>
 int main()
