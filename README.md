@@ -2,7 +2,7 @@
 資傳一甲 程式設計 程式倉庫
 
 # week08
-##08-1
+## 08-1
 ```cpp
 #include <stdio.h>
 int main()
@@ -22,7 +22,7 @@ int main()
     }
 }
 ```
-##08-2
+## 08-2
 ```cpp
 #include <stdio.h>
 int main()
@@ -46,7 +46,7 @@ int main()
     }
 }
 ```
-##08-3
+## 08-3
 ```cpp
 #include <stdio.h>
 int main()
@@ -65,7 +65,7 @@ int main()
         printf("%d不是質數",a);
 }
 ```
-##08-4
+## 08-4
 ```cpp
 #include <stdio.h>
 int main()
