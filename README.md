@@ -1,7 +1,7 @@
 # 2022c
 資傳一甲 程式設計 程式倉庫
 
-#week10
+# week10
 ## week10-1
 ```cpp
 #include <stdio.h>
