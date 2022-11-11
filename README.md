@@ -21,6 +21,7 @@ int main()
         printf("\n");
     }
 }
+```
 ##08-2
 ```cpp
 #include <stdio.h>
@@ -44,6 +45,7 @@ int main()
         b++;
     }
 }
+```
 ##08-3
 ```cpp
 #include <stdio.h>
@@ -62,6 +64,7 @@ int main()
     else
         printf("%d不是質數",a);
 }
+```
 ##08-4
 ```cpp
 #include <stdio.h>
@@ -79,7 +82,7 @@ int main()
 		if(c==0)printf("%d ",b);
 	}
 }
-
+```
 # week07
 ## 07-1
 ```cpp
@@ -91,6 +94,7 @@ int main()
     long long int a=123456789123456789;
     printf("%lld",a);
 }
+```
 ## 07-2
 ```cpp
 #include <stdio.h>
@@ -104,6 +108,7 @@ int main()
     }
     printf("答案是%lld\n",ans);
 }
+```
 ## 07-3
 ```cpp
 #include <stdio.h>
@@ -120,6 +125,7 @@ int main()
     }
     printf("答案是%lld\n",b);
 }
+```
 ## 07-4
 ```cpp
 #include <stdio.h>
@@ -132,6 +138,7 @@ int main()
     }
 
 }
+```
 # week06
 ## 06-1
 ```cpp
@@ -144,6 +151,7 @@ int main()
         printf("鷹架%d樓 星星%d顆\n",a,b);
     }
 }
+```
 ## 06-2
 ```cpp
 #include <stdio.h>
@@ -163,6 +171,7 @@ int main()
         printf("鷹架%d樓 星星%d顆\n",a,b);
     }
 }
+```
 ## 06-3
 ```cpp
 #include <stdio.h>
@@ -178,6 +187,7 @@ int main()
     }
      printf("找到答案是:%d", ans);
 }
+```
 ## 06-4
 ```cpp
 #include <stdio.h>
@@ -197,6 +207,7 @@ int main()
     }
     printf("中的是:%d",b);
 }
+```
 ## 06-5
 ```cpp
 #include <stdio.h>
@@ -214,3 +225,4 @@ int main()
     if(-1)printf("-1成立\n");
     if("a==0")printf("不管甚麼都會成立");
 }
+```
