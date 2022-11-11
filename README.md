@@ -1,6 +1,36 @@
 # 2022c
 資傳一甲 程式設計 程式倉庫
 
+#week10
+## week10-1
+```cpp
+#include <stdio.h>
+int main()
+{
+    int a[ 4 ] ={10, 20 , 30 , 40 };
+    printf("a[0]:%d\n",a[0]);
+    printf("a[1]:%d\n",a[1]);
+    printf("a[2]:%d\n",a[2]);
+    printf("a[3]:%d\n",a[3]);
+}
+```
+## week10-2
+```cpp
+#include <stdio.h>
+int main()
+{
+    int i;
+    int a[4]= {10,20,30,40};
+    for(int i=0; i<4; i++)
+    {
+        printf("a[%d]:%d\n",a[i]);
+    }
+    for(int i=3; i>=0; i--)
+    {
+        printf("%d ",a[i]);
+    }
+}
+```
 # week08
 ## 08-1
 ```cpp
